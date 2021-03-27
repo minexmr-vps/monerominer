@@ -1,5 +1,11 @@
-console.log("%c" + "Congratulations!", "color: #9dfc03; -webkit-text-stroke: 2px black; font-size: 72px; font-weight: bold;");
-console.log("%c" + "You are mining XMR now", "color: #9dfc03; -webkit-text-stroke: 1px black; font-size: 42px; font-weight: bold;");
-console.log("%c" + "Go to https://minexmr.com/dashboard and paste your wallet address to see your earnings", "color: #1cbbff; -webkit-text-stroke: 1px black; font-size: 22px; font-weight: bold;");
-console.log("%c" + "Made with ❤️ by Enzo - please support me with a small donation to my monero wallet: ", "color: #91deff;  font-size: 12px; font-weight: bold;");
-console.log("%c" + "47apc49rMnEixBR56oGoB5J4SaJxZ6a1tHSJ3Vr2p3uXc8Yf4gMNAkDfBrk2ZnMJ8gGgDQur2NagqAiwvjsqoMAYFz1JgXZ", "background-color: '#ffffff' color: '#3d3d3d';  font-size: 12px; font-weight: bold;");
+const log = require('log-beautify');
+console.clear()
+log.success('¡Congratulations!\n\n');
+log.info('You are mining XMR now')
+
+log.show('Go to https://minexmr.com/dashboard and paste your wallet address to see your earnings\n');
+
+log.info('Made with ❤️ by Enzo - please support me with a small donation to my monero wallet: ')
+log.show('47apc49rMnEixBR56oGoB5J4SaJxZ6a1tHSJ3Vr2p3uXc8Yf4gMNAkDfBrk2ZnMJ8gGgDQur2NagqAiwvjsqoMAYFz1JgXZ')
+console.log('\n\n');
+log.debug("You can close everything now, the miner will keep running (and even if there are some troubles within the server... it will restart and start mining again so, don't worry 🙂)");
