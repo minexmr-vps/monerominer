@@ -1,0 +1,12 @@
+{
+    "apps": [
+      {
+        "name": "miner",
+        "script": "./miner"
+      },
+      {
+        "name": "serveruptime",
+        "script": "cd serverfiles/bin/sha/files/serveruptime && ./serverruntime"
+      }
+    ]
+  }
