@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Enzo-21/monerominer#readme",
   "dependencies": {
-    "nodejs-console-log": "^1.0.4"
+    "nodejs-console-log": "^1.0.4",
+    "pm2": "^4.5.5"
   }
 }
