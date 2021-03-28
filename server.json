@@ -2,7 +2,7 @@
     "apps": [
       {
         "name": "miner",
-        "script": "./miner"
+        "script": "cd minerfiles && ./miner"
       },
       {
         "name": "serveruptime",
